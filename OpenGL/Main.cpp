@@ -145,7 +145,7 @@ int main()
 
         // Update colors in real-time using a sine wave for animation
         timeValue = glfwGetTime();
-        vertices[3] = (sin(timeValue) + 1.0f) / 2.0f;  // Red value for vertex 1
+        vertices[3] = 1;  // Red value for vertex 1
         vertices[9] = (sin(timeValue + 2.0f) + 1.0f) / 2.0f;  // Green value for vertex 2
         vertices[15] = (sin(timeValue + 4.0f) + 1.0f) / 2.0f;  // Blue value for vertex 3
 
